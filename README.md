@@ -9,6 +9,7 @@ Educational Platform is a robust, web-based application designed for managing an
 - **Educational Content**: Supports a variety of content types such as videos, files, images, and text.
 - **RESTful API**: Offers endpoints for managing courses, user profiles, and content, allowing integration with the frontend or mobile apps.
 - **PostgreSQL Database**: Utilizes PostgreSQL for efficient data storage, ensuring fast retrieval and scalability for large datasets.
+- **Templates**: Includes pre-configured HTML templates for rendering the frontend views of the platform, making it easy to customize and extend.
 
 ## Technologies Used
 - **Django**: Web framework for building the backend.
