@@ -37,6 +37,7 @@ class Course(models.Model):
     def __str__(self) -> str:
         return str(self.title)   
     
+    
 
 class Module(models.Model):
     course = models.ForeignKey(Course , related_name='modules' , on_delete=models.CASCADE )

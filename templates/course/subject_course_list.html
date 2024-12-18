@@ -56,6 +56,8 @@ E-Learning Platform
                             <ul class="list-disc pl-5">
                             {% for course in subject.courses.all %}
                                 <li>
+                                    <a href="{% url "courses:course_detail" course.slug %}" class="text-blue-500 hover:underline">{{course.title}}</a>
+
                                 </li>
                                 {% empty %}
                                 <li>No courese available in this subject</li>
